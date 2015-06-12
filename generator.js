@@ -8,7 +8,6 @@ var generate = function(num){
     arr.push(i);
   }
 
-
   var finalArr = [];
   var splicey = [];
 
@@ -21,7 +20,5 @@ var generate = function(num){
   return finalArr;
 
 };
-
-
 
 module.exports = generate;
