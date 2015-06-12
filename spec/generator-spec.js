@@ -7,8 +7,6 @@ var generate = require('../generator.js');
 
 describe('Scrambled Number Generator', function () {
 
-
-
   describe('Scrambler Function', function () {
     it('generate should be a function', function () {
       generate.should.be.a('function');
@@ -21,14 +19,9 @@ describe('Scrambled Number Generator', function () {
       generate(4).length.should.equal(4);
     });
 
-
     it('generate should return an array', function () {
       generate(4).should.be.an('array');
     });
-
-
-
-
 
   });
 });
