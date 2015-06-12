@@ -30,17 +30,21 @@ File structure:
     - generator.js
     - spec/generator-spec.js
 
-where `generator.js` is the implementation  
+where `generator.js` is the implementation
 and `spec/generator-spec.js` is the test script
 
-(you'll need jasmine-node)
+
+(You need to install Mocha / Chai)
 
 ````
-npm install jasmine-node -g
+npm init
 ````
 
-run automated tests by running
-
 ````
-jasmine-node --autotest .
+npm install -D mocha chai
+````
+
+run automated test by running
+````
+mocha -w
 ````
